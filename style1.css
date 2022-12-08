@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F9F5ED;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+nav{
+    padding: 20px 10%;
+    height: 15vh;
+    /* margin-left: %; */
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 5%;
+    /* justify-content: space-between; */
+    font-weight: 500;
+    column-gap: 20px;
+   
+}
+
+/* Hero section */
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.leftmain{
+    width: 40%;
+    /* padding-left: -5px; */
+}
+
+.leftmain h1{
+    font-size: 67px;
+}
+
+
+.leftmain p{
+    margin: 5% 0;
+}
+
+.leftmain button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #3b855b;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+
+.rightmain {
+    width: 60%;
+}
+
+.rightmain img{
+    padding: 10px 10px;
+}
